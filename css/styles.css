@@ -880,13 +880,16 @@ display:block;
 
 .modal-checkbox-icon{
   fill: #fff;
-  opacity: 0;
+  opacity: 1;
 }
 
-.modal-checkbox-input:checked+.custom-check{
-  background-color: #4D5AE5;
+.modal-checkbox-input:checked + .modal-checkbox-field > .custom-check{
+  background-color: var(--menu-active-color);
+  border: none;
+  fill: var(--button-bg-color);
 }
 
-.modal-checkbox-input:checked + .custom-check > .modal-checkbox-icon{
- opacity: 1;
+.checkbox-link{
+  color: var(--logo-color);
 }
+
