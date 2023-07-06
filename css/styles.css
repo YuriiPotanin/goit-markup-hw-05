@@ -876,11 +876,11 @@ display:block;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   fill: transparent;
-  gap: 8px;
+  margin-right: 8px;
 }
 
 .modal-checkbox-icon{
-  fill: #fff;
+  fill: #ffffff;
   opacity: 1;
   
 }
