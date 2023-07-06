@@ -527,13 +527,14 @@ img {
 
 .send-btn-icon{
   fill: #FFF;
+  margin-left: 16px;
 }
 
 .footer-send-btn{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+/*  gap: 16px;   */
   padding: 8px 24px;
   min-width: 165px;
   height: 40px;
@@ -722,6 +723,7 @@ display:block;
 }
 
 .modal-form {
+  margin-bottom: 8px;
  
 }
 .modal-form-field{
