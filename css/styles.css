@@ -876,11 +876,13 @@ display:block;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   fill: transparent;
+  gap: 8px;
 }
 
 .modal-checkbox-icon{
   fill: #fff;
   opacity: 1;
+  
 }
 
 .modal-checkbox-input:checked + .modal-checkbox-field > .custom-check{
