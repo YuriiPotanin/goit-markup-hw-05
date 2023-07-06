@@ -485,11 +485,18 @@ img {
 
 }
 
-.footer-form-input{
+.footer-form{
   display: flex;
   gap: 24px;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.footer-form-input{
+/*  display: flex;
+  gap: 24px;
   align-items: stretch;
-  justify-content: center;
+  justify-content: center;  */
 }
 
 .footer-input{
@@ -505,8 +512,9 @@ img {
     font-size: 12px;
     
     font-weight: 400;
-    line-height: 2;
+    line-height: 1.5;
     letter-spacing: 0.48px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 .footer-input::placeholder{
@@ -526,15 +534,20 @@ img {
   justify-content: center;
   align-items: center;
   gap: 16px;
-  padding: 8px 24px;;
-  color:  #FFF;
+  padding: 8px 24px;
+  min-width: 165px;
+  height: 40px;
+  color:  #ffffff;
+  background-color: #4D5AE5;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
   text-align: center;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
     border-radius: 4px;
-    background: #4D5AE5;
+    border: none;
 }
 
 .section-project {
