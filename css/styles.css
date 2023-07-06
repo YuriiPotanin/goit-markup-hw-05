@@ -720,6 +720,7 @@ display:block;
   letter-spacing: 0.02em;
   text-align: center;
   margin-bottom: 16px;
+  color: var(--hero-background-color);
 }
 
 .modal-form {
@@ -730,6 +731,18 @@ display:block;
   position: relative;
 
   display: block; 
+  margin-bottom: 4px;
+  font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: var(--customer-color)
+
+}
+
+.input-field{
+  position: relative;
   margin-bottom: 8px;
 }
 
@@ -749,11 +762,22 @@ display:block;
   padding-left: 38px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: transparent;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input:focus{
-  border: 1px solid #4D5AE5;
+  border-color: #4D5AE5;
+}
+
+.modal-user-icons{
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .modal-input:focus + .modal-user-icons {
@@ -763,10 +787,19 @@ display:block;
 .user-comment{
   width: 100%;
   height: 120px;
-  padding: 16px;
+  padding: 8px 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   resize: none;
+  background-color: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 16px;
+  background-color: transparent;
+    outline: transparent;
+}
+
+.user-comment:focus{
+ border-color: #4D5AE5;
 }
 
 .user-comment::placeholder{
